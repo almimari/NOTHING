@@ -168,21 +168,21 @@
 
 /*---------------MOBILE STYLE SHEET---------------*/
 
-  @media (min-width: 481px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
 
     #all {
-  height:60vh;
+  height:100vh;
   width:100vw;
   float:  left;
-  background-color:  pink;
 }
 
 
   #checkerboard {
-    height:  40vh;
+    height:  60vh;
     width:  100vw;
     float:  left;
     z-index:  2;
+    display:  none;
   }
  
   #spectrum-container {
@@ -202,6 +202,23 @@
   #picker {
     width:  100%;
     height:  100%;
+  }
+
+  h1 {
+    font-family:  helvetica neue, helvetica;
+    font-size: 2em;
+  }
+
+
+  #icons {
+    right:  0px;
+    top:  0px;
+    padding-top:50px;
+    padding-right: 20px;
+    position:  fixed;
+    width:70px;
+    z-index: 20;
+    mix-blend-mode: exclusion;
   }
 
 
