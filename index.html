@@ -45,7 +45,7 @@ www.marialmidhadi.com-->
   }
 
   a {
-
+    font-size: 3vh;
     mix-blend-mode: difference;
     color:  white;
     font-family: courier-std,monospace;
@@ -64,6 +64,7 @@ www.marialmidhadi.com-->
   margin-bottom: 100px;
   padding: 50px;
  }
+
 
 #spectrum-container {
   width:  100%;
@@ -172,7 +173,23 @@ www.marialmidhadi.com-->
 
 /*---------------MOBILE STYLE SHEET---------------*/
 
-  @media screen and (max-width: 1024px) {
+  
+@media screen and (max-width: 500px) {
+
+#content {
+  font-size:  4.5vw;
+}
+
+a {
+  font-size:  4vw;
+}
+
+
+
+
+}
+
+  @media screen and (max-width: 770px) {
 
   #spectrum-container {
   width:  100vw;
@@ -198,14 +215,24 @@ www.marialmidhadi.com-->
     font-size: 2em;
     margin-top:  20vh;
     width:  100%;
-    margin:  0 auto;
+    margin:  auto;
 
   }
 
   #content {
-      width:  100%;
-        margin:  0 auto;
+/*    float: left;
+    position: relative;
+    left: 25%;
+*/
   }
+/*
+   #content-inner {
+      float: left;
+    position: relative;
+    left: -25%;
+    text-align:  left;
+ }
+*/
 
 
   #icons {
@@ -231,16 +258,6 @@ www.marialmidhadi.com-->
 
 }
 
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-
-
-
-
-
 
   </style>
 
@@ -256,11 +273,12 @@ www.marialmidhadi.com-->
   <div id="all">
 
 <div id="content">
+     <div id="content-inner">
 
-    <h1> NOTHING Projects</h1><br>
+        <h1> NOTHING Projects</h1><br>
+       <a href="mailto:nothing@nothingprojects.xyz" target="_blank" id="contact">(contact us)</a>   
 
-
-   <a href="mailto:nothing@nothingprojects.xyz" target="_blank" id="contact">(contact us)</a>   
+      </div>
 </div>
 
 
